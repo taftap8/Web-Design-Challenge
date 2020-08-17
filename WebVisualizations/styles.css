@@ -6,7 +6,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     padding: 30px 10px;
 }
 
@@ -22,7 +22,7 @@ h3 {
 .navbar {
   padding: 10px;
   background:teal;
-  box-sizing: boarder-box;
+  align-items: left;
   
 }
 
