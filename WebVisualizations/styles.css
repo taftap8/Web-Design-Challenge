@@ -4,10 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0px;
-    background-color: teal;
+    background-color: whitesmoke;
 }
 
-li, a, button {
+select, li, a, button {
     font-family: sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -22,7 +22,7 @@ body {
 /* Styling the header, giving it a height, a background color, and some top padding */
 header {
     display: flex;
-    background:white;
+    background:teal;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
