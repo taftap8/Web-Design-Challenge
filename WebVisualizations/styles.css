@@ -5,7 +5,10 @@ body{
 h1{
     color: teal;
 }
-
+h2{
+    color:teal;
+    text-align: center;
+}
 .text_adjust{
     color: white;
     font-size-adjust: 24;
