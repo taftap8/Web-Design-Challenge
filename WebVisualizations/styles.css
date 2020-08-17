@@ -1,103 +1,39 @@
 
+/*General Styling*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    background-color: teal;
+}
+
+li, a, button {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
 /* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
 body {
   background: #f1f1f1;
 }
+
+/* Styling the header, giving it a height, a background color, and some top padding */
 header {
     display: flex;
     background:white;
     justify-content: space-between;
-    box-sizing: boarder-box;
     align-items: center;
     padding: 30px 10%;
+    display: inline-block;
 }
 
-h1 {
-  font-size: 80px;
+.nav_links {
+    list-style: none;
 }
-
-h3 {
-  font-size: 30px;
-}
-
-/* Giving our navbar some padding and a background color */
-.lat-box {
-    background-color: turquoise;
-    color: white;
-}
-.navbar {
+.nav_links li{
   padding: 0px 20px;
   display: inline-block;
  
-}
-
-/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
-.navbar li {
-  display: inline-block;
-  padding: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
-  cursor: pointer;
-  background: #fff;
-  border-radius: 3px;
-}
-
-/* Getting rid of the default link styles here */
-.navbar li a {
-  color: #000;
-  text-decoration: none;
-}
-
-/* Styling the header, giving it a height, a background color, and some top padding */
-.header {
-  height: 200px;
-  padding-top: 20px;
-  background: #cdcdcd;
-}
-
-/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
-.header h1 {
-  padding: 60px;
-  margin: 0;
-  color: #000;
-  text-align: center;
-}
-
-/* Giving the .post element margin on 3 sides */
-.post {
-  margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 100px;
-}
-
-#nav-select {
-  visibility: visible;
-}
-
-/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 600px) {
-  .navbar li {
-    padding: 10px;
-  }
-
-  .post {
-    margin-right: 30px;
-    margin-left: 30px;
-  }
-
-  .header {
-    height: 100px;
-  }
-
-  .header h1 {
-    padding: 10px;
-  }
-
-  .navbar ul {
-    visibility: hidden;
-  }
-
-  #nav-select {
-    visibility: visible;
-  }
 }
