@@ -12,7 +12,7 @@
 <body class="body">
     <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a style="font-size: 30px; color:white; background:teal; padding:10px" class="navbar-brand" href="#"><strong>Latitude</strong></a>
+        <a style="font-size: 30px; color:white; background:teal; padding:10px" class="navbar-brand" href="LandingPage.html"><strong>Latitude</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    <a class="nav-link" href="Data.html">Data</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Comparisons.html">Comparisons</a>
@@ -45,6 +45,7 @@
         <div class="row">
             <div style="background:white" class="col-md-5">
                 <h1> Summary: Latitude vs. X</h1>
+                <hr>
             </div>
             <div class="col-md-1"></div>
             <div style="background:white" class="col-md-6">
@@ -53,7 +54,10 @@
         </div>
         <div class="row">
             <div style="background:white" class="col-md-5">
+                <a href="Visualization 1 - Max Temp.html">
                 <img class="image" src="visualizations/LatvsTemp.png">
+                </a>
+
                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
                     To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
                     dataset on over 500 cities.
@@ -67,16 +71,29 @@
             </div>
             <div class="col-md-1"></div>
             <div style="background:white" class="col-md-3">
-                <img class="pic" src="visualizations/LatvsTemp.png"><br>
+                <a href="Visualization 1 - Max Temp.html">
+                <img class="pic" src="visualizations/LatvsTemp.png">
+                </a><br><br><br>
+                <br>
+                <a href="Visualization 2 - Humidity.html">
                 <img class="pic" src="visualizations/LatvsHumid.png">
+                </a>
             </div>
             <div style="background:white" class="col-md-3">
-                <img class="pic" src="visualizations/LatvsClouds.png"><br>
+                <a href="Visualization 3 - Cloudiness.html">
+                <img class="pic" src="visualizations/LatvsClouds.png">
+                </a><br><br><br>
+                <a href="Visualization 4 - Wind Speed.html">
                 <img class="pic" src="visualizations/LatvsWS.png">
+                </a>
             </div>
         </div>
         </div>
     </div>
+
+    <nav class=“navbar sticky-bottom navbar-light bg-light”>
+        <a class=“navbar-text” href=“#”><small>copyright 2020</small></a>
+    </nav>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
