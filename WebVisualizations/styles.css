@@ -1,1 +1,20 @@
 
+body{
+    background: lightgrey;
+}
+h1{
+    color: teal;
+}
+
+.text_adjust{
+    color: white;
+    font-size-adjust: 24;
+
+}
+.pic{
+    width: 100%;
+}
+
+.image{
+    float: left;
+}
