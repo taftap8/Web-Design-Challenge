@@ -3,6 +3,12 @@
 body {
   background: #f1f1f1;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+}
 
 h1 {
   font-size: 80px;
@@ -15,7 +21,9 @@ h3 {
 /* Giving our navbar some padding and a background color */
 .navbar {
   padding: 10px;
-  background: #5191fd;
+  background:teal;
+  box-sizing: boarder-box;
+  
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
