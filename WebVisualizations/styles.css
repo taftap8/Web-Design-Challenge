@@ -29,10 +29,11 @@ header {
     display: inline-block;
 }
 
-.nav_links {
+.nav_link {
     list-style: none;
+    display: inline-block;
 }
-.nav_links li{
+.nav-item dropdown{
   padding: 0px 20px;
   display: inline-block;
  
