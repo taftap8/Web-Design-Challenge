@@ -5,9 +5,11 @@ body {
 }
 header {
     display: flex;
+    background:teal;
     justify-content: space-between;
-    align-items: right;
-    padding: 30px 10px;
+    box-sizing: boarder-box;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 h1 {
@@ -20,10 +22,8 @@ h3 {
 
 /* Giving our navbar some padding and a background color */
 .navbar {
-  padding: 10px;
-  background:teal;
-  align-items: left;
-  box-sizing: border-box;
+  padding: 0px 20px;
+  display: inline-block;
   text-decoration-color: white;
   
 }
