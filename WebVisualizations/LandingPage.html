@@ -9,7 +9,7 @@
 <body>
 <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,45 +19,72 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Data</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link" href="Comparisons.html">Comparisons</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
+                Plots
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="Visualization 1 - Max Temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="Visualization 2 - Humidity.html">Humidity</a>
+                <a class="dropdown-item" href="Visualization 3 - Cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="Visualization 4 - Wind Speed.html">Wind Speed</a>
               </div>
             </li>
           </ul>
         </div>
       </nav>
     
-  <div class="container-fluid">
+  <div class="container">
        <div class = "row">
-         <div class = "col-md-12">
+         <div class = "col-md-8">
+             <h1> Summary: Latitude vs. X</h1>
+             <div class = "row">
+                 <img src="visualizations/LatvsTemp.png">
+                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+                         To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+                 </p><br>
+                 <p> After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+                        temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis,
+                         as well as explanations and descriptions of any trends and correlations witnessed.
+                 </p><br>                 
+             </div> 
+         </div>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-4">
+                     <h1>Visualizations</h1>
+                     <div class = "container">
+                         <div class="row">
+                             <div class = "col-md-2">
+                                 <img src="visualizations/LatvsTemp.png">
+                             </div>
+                             <div class="col-md-2">
+                                <img src="visualizations/LatvsClouds.png">
+                             </div>
+                             
+                         </div>
+                         <div class="container">
+                             <div class="row">
+                                 <div class="col-md-2">
+                                     <img src="visualizations/LatvsHumid.png">
+                                 </div>
+                                 <div class="col-md-2">
+                                     <img src="visualizations/LatvsWS.png">
+                                 </div>
+
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
          </div>
       </div>
-    <div class="row">
-      <div class="col-sm-8">
-        <h3>Summary: Latitude vs. X</h3>
-        Left Viewing Pane & Summary
-      </div>
-      <div class="col-sm-4">
-        <h3> Visualizations </h3>
-        <div class="col-xs-2"></div>
-        <h4>Image 1</h4>
-        <div class="col-xs-2"></div>
-        <h4>Image 2</h4>
-      </div>
-  </div>
-
-
+ 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
