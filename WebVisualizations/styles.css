@@ -5,7 +5,7 @@ body {
 }
 header {
     display: flex;
-    background:teal;
+    background:white;
     justify-content: space-between;
     box-sizing: boarder-box;
     align-items: center;
@@ -21,11 +21,14 @@ h3 {
 }
 
 /* Giving our navbar some padding and a background color */
+.lat-box {
+    background-color: turquoise;
+    color: white;
+}
 .navbar {
   padding: 0px 20px;
   display: inline-block;
-  text-decoration-color: white;
-  
+ 
 }
 
 /* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
