@@ -12,7 +12,8 @@
 <body class="body">
     <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a style="font-size: 30px; color:white; background:teal; padding:10px" class="navbar-brand" href="LandingPage.html"><strong>Latitude</strong></a>
+        <a style="font-size: 30px; color:white; background:teal; padding:10px" class="navbar-brand"
+            href="LandingPage.html"><strong>Latitude</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,21 +42,13 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div style="background:white" class="col-md-5">
+            <div style="background:white" class="col-lg-6 my-8 mx-2 p-5">
                 <h1> Summary: Latitude vs. X</h1>
                 <hr>
-            </div>
-            <div class="col-md-1"></div>
-            <div style="background:white" class="col-md-6">
-                <h1>Visualizations</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div style="background:white" class="col-md-5">
                 <a href="Visualization 1 - Max Temp.html">
-                <img class="image" src="visualizations/LatvsTemp.png">
+                    <img class="float-left mr-3 about-img img-responsive" width="45%" src="visualizations/LatvsTemp.png">
                 </a>
 
                 <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.
@@ -67,33 +60,27 @@
                     temperature, cloudiness, wind speed, and humidity. This site provides the source data and
                     visualizations created as part of the analysis,
                     as well as explanations and descriptions of any trends and correlations witnessed.
-                </p><br>
+                </p>
             </div>
-            <div class="col-md-1"></div>
-            <div style="background:white" class="col-md-3">
-                <a href="Visualization 1 - Max Temp.html">
-                <img class="pic" src="visualizations/LatvsTemp.png">
-                </a><br><br><br>
-                <br>
-                <a href="Visualization 2 - Humidity.html">
-                <img class="pic" src="visualizations/LatvsHumid.png">
-                </a>
+            
+            <div style="background:white" class="col-lg-5 my-8 mx-2 p-5">
+                <h1>Visualizations</h1>
+                <hr>
+                <a href="Visualization 3 - Cloudiness.html"><img src="visualizations/LatvsClouds.png"
+                    class="img-responsive float-lg-left m-2" width = "45%"></a>
+                <a href="Visualization 4 - Wind Speed.html"><img src="visualizations/LatvsWS.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
+                <a href="Visualization 2 - Humidity.html"><img src="visualizations/LatvsHumid.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
+                <a href="Visualization 1 - Max Temp.html"><img src="visualizations/LatvsTemp.png"
+                    class="img-responsive float-lg-left m-2" width="45%"></a>
             </div>
-            <div style="background:white" class="col-md-3">
-                <a href="Visualization 3 - Cloudiness.html">
-                <img class="pic" src="visualizations/LatvsClouds.png">
-                </a><br><br><br>
-                <a href="Visualization 4 - Wind Speed.html">
-                <img class="pic" src="visualizations/LatvsWS.png">
-                </a>
-            </div>
-        </div>
         </div>
     </div>
 
-    <nav class=“navbar sticky-bottom navbar-light bg-light”>
-        <a class=“navbar-text” href=“#”><small>copyright 2020</small></a>
-    </nav>
+    <footer class="footer font small">
+        <div class="footer-copyright text-center py-3">Alexandra Taft Copyright 2020</div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
